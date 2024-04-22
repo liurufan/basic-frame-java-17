@@ -1,0 +1,8 @@
+package org.basic.frame.infrastructure.repository;
+
+import org.basic.frame.infrastructure.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+
+public interface UserRepository extends JpaRepository<User, Integer>, JpaSpecificationExecutor<User> {
+}
