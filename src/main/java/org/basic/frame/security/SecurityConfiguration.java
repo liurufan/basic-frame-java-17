@@ -84,7 +84,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             "/mst/**",
             "/third-party-api/**",
             "/user/reset-password",
-            "/user/save-password"
+            "/user/save-password",
+            "/health-check"
     };
 
     @NonNull
